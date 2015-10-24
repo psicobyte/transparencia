@@ -13,6 +13,7 @@ en:
       contracts: "Contracts"
       grants: "Grants"
       budgets: "Budgets"
+      people: "Council"
     footer:
       description: "This portal use %{consul}, is %{open_source}. Madrid, for the whole world."
       open_source: "software libre"
