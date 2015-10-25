@@ -141,29 +141,6 @@ header {
     font-family: inherit;
     font-size: rem-calc(16);
     margin-top: 0;
-
-    &.see-more {
-      width: 100%;
-
-      @media (min-width: $small-breakpoint) {
-        width: auto;
-      }
-    }
-  }
-
-  .icon-home-big {
-    color: white;
-    font-size: rem-calc(300);
-    line-height: rem-calc(300);
-    opacity: .75;
-  }
-
-  .icon-home-small {
-    color: white;
-    font-size: rem-calc(100);
-    opacity: .75;
-    position: absolute;
-    right: rem-calc(24);
   }
 
   .selected {
