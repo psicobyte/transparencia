@@ -1,7 +1,7 @@
 <header>
   <section class="top-links show-for-medium-up">
     <div class="row">
-      <div class="external-links">
+      <div class="portal-links">
         <%= link_to t("layouts.header.participation"), "#" %>&nbsp;|
         <%= link_to t("layouts.header.transparency"), root_path, class: "selected" %>&nbsp;|
         <%= link_to t("layouts.header.opendata"), "#" %>
@@ -17,21 +17,10 @@
           <%= link_to root_path do %>
             <%= image_tag('header_logo_madrid.png', class: 'show-for-medium-up left', size: '80x80', alt: t("layouts.header.logo")) %>
             <%= t("layouts.header.open_gov", open: "#{t('layouts.header.open')}").html_safe %> <span>|</span>
-                <%= t("layouts.header.transparency") %>
+                <span class="logo-site"><%= t("layouts.header.transparency") %></span>
           <% end %>
         </li>
       </ul>
-
-      <section class="top-bar-section">
-        <ul class="left">
-          <li><%= link_to t("layouts.header.highlights"), "#" %></li>
-          <li><%= link_to t("layouts.header.declarations"), "#" %></li>
-          <li><%= link_to t("layouts.header.contracts"), "#" %></li>
-          <li><%= link_to t("layouts.header.grants"), "#" %></li>
-          <li><%= link_to t("layouts.header.budgets"), "#" %></li>
-          <li><%= link_to t("layouts.header.people"), people_path %></li>
-        </ul>
-      </section>
     </nav>
   </div>
 </header>
